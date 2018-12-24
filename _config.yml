@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neno" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Qi Lu"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Qi Lu"
+description              : "Academic Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,18 +103,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Qi Lu"
+  avatar           : "/images/avator.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Ph.D. Candidate"
+  location         : "Chongqing, China"
+  email            : "luqi940101@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      # url: mailto:"luqi940101@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      # url: "https://qi.lu.page"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -283,6 +283,18 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
     values:
       layout: single
       author_profile: true
