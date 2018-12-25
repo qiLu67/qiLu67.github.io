@@ -1,3 +1,17 @@
+GIT
+  remote: https://github.com/mmistakes/minimal-mistakes.git
+  revision: 5b8a9de8eb24955e8cb8140169514f73dcef47cb
+  specs:
+    minimal-mistakes-jekyll (4.14.1)
+      jekyll (~> 3.7)
+      jekyll-data (~> 1.0)
+      jekyll-feed (~> 0.10)
+      jekyll-gist (~> 1.5)
+      jekyll-include-cache (~> 0.1)
+      jekyll-paginate (~> 1.1)
+      jekyll-sitemap (~> 1.2)
+      jemoji (~> 0.10)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -207,15 +221,6 @@ GEM
       jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minimal-mistakes-jekyll (4.14.1)
-      jekyll (~> 3.7)
-      jekyll-data (~> 1.0)
-      jekyll-feed (~> 0.10)
-      jekyll-gist (~> 1.5)
-      jekyll-include-cache (~> 0.1)
-      jekyll-paginate (~> 1.1)
-      jekyll-sitemap (~> 1.2)
-      jemoji (~> 0.10)
     minitest (5.11.3)
     multipart-post (2.0.0)
     nokogiri (1.9.1)
@@ -256,7 +261,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  minimal-mistakes-jekyll
+  minimal-mistakes-jekyll!
 
 BUNDLED WITH
    1.17.2
