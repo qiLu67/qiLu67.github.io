@@ -5,10 +5,12 @@
 - title: Research
   url: /research/
 - title: Publication
-  url: /categories/
-- title: Service
+  url: /publications/
+- title: Teaching & Service
   url: /service/
 - title: Misc
   url: /misc/
+#- title: Edge Case
+#  url: /tags/markup/
 #- title: Search
 #  url: /search/

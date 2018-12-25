@@ -1,7 +1,7 @@
 ---
 layout: tag
 permalink: /service/
-title: "Service"
+title: "Teaching & Service"
 taxonomy: markup
 ---
 service page
