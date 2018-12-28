@@ -25,17 +25,17 @@ elements:
 
 # Conference
 
-1. Y. Wang, **Q. Lu**, and S. Parameswaran, " On the Use of the k-ε Model in OpenFOAM to Simulate the Atmospheric Boundary Layer," in *OpenFOAM Conference North America*, Detroit, MI, Oct. 30, 2018.
+1. **Q. Lu**, S. Parameswaran, and B. Ren, "Heat Transfer by a Rotating Liquid Jet Impingement Cooling System," in *International Mechanical Engineering Congress & Exposition*, Pittsburgh, PA, Nov. 09-15, 2018.
 
-2. **Q. Lu**, and S. Parameswaran, "Rotating Liquid Jet Impingement Cooling System," in *OpenFOAM Conference North America*, Detroit, MI, Oct. 30, 2018.
+2. Y. Wang, **Q. Lu**, and S. Parameswaran, " On the Use of the k-ε Model in OpenFOAM to Simulate the Atmospheric Boundary Layer," in *OpenFOAM Conference North America*, Detroit, MI, Oct. 30, 2018.
 
-3. **Q. Lu**, S. Parameswaran, and B. Ren, "Heat Transfer by a Rotating Liquid Jet Impingement Cooling System," in *International Mechanical Engineering Congress & Exposition*, Pittsburgh, PA, Nov. 09-15, 2018.
+3. **Q. Lu**, and S. Parameswaran, "Rotating Liquid Jet Impingement Cooling System," in *OpenFOAM Conference North America*, Detroit, MI, Oct. 30, 2018.
 
-4. **Q. Lu**,  B. Ren, and S. Parameswaran, "Robust Tracking Control for a UAV in GPS-denied Uncertain Environments," In *Texas UAS Summit & Expo and AUVSI XPONENTIAL*, Dallas, TX, May 09-10, 2017. **(3rd Place in Poster Competition and Selected to Give a 2-min Lightning Round Talk)**
+4. J. Yan, Z. Peng, H. Hong, X. Zhu, **Q. Lu**, B. Ren, C. Li, "<a href="http://ieeexplore.ieee.org/document/8251698" target="_blank">Indoor range-direction-movement SAR for drone-based radar systems</a>," in *IEEE Asia Pacific Microwave Conference (APMC)*, Kuala Lumpur, Malaysia, Nov. 13-16, 2017.
 
-5. **Q. Lu**,  B. Ren, and S. Parameswaran, "Navigation and Control for a Quadrotor UAV in GPS-denied Environments," In *Annual Graduate School Poster Competition*, Lubbock, TX, May 23-24, 2017.
+5. **Q. Lu**,  B. Ren, and S. Parameswaran, "Robust Tracking Control for a UAV in GPS-denied Uncertain Environments," In *Texas UAS Summit & Expo and AUVSI XPONENTIAL*, Dallas, TX, May 09-10, 2017. **(3rd Place in Poster Competition and Selected to Give a 2-min Lightning Round Talk)**
 
-6. J. Yan, Z. Peng, H. Hong, X. Zhu,**Q. Lu**, B. Ren, C. Li, "<a href="http://ieeexplore.ieee.org/document/8251698" target="_blank">Indoor range-direction-movement SAR for drone-based radar systems</a>," in *IEEE Asia Pacific Microwave Conference (APMC)*, Kuala Lumpur, Malaysia, Nov. 13-16, 2017.
+6. **Q. Lu**,  B. Ren, and S. Parameswaran, "Navigation and Control for a Quadrotor UAV in GPS-denied Environments," In *Annual Graduate School Poster Competition*, Lubbock, TX, Mar. 23-24, 2017.
 
 7. **Q. Lu**, B. Ren, S. Parameswaran, and Q.-C. Zhong, "<a href="http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2604365" target="_blank">Position Control of a Quadrotor Using Onboard Optical Flow Sensor</a>," in *Dynamic Systems and Control Conference*, Minneapolis, MN, Oct. 12-14, 2016.
 

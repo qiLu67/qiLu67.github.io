@@ -1,5 +1,5 @@
 ---
-layout: tag
+layout: page
 permalink: /service/
 title: "Teaching & Service"
 taxonomy: markup
