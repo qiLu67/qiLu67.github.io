@@ -43,7 +43,7 @@ I'm from Chongqing, China. Prior to joining Texas Tech University, I got my Mast
 # Education
 
 <figure style="width: 150px" class="align-center">
-  <img src="{{ '/images/ttu.png' | absolute_url }}" alt="">
+  <img src="/images/ttu.png" alt="">
   <figcaption></figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Lubbock, TX<br />
 
 <br />
 <figure style="width: 150px" class="align-center">
-  <img src="{{ '/images/uf.svg' | absolute_url }}" alt="">
+  <img src="/images/uf.svg" alt="">
   <figcaption></figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ Gainesville, FL<br />
 
 <br />
 <figure style="width: 150px" class="align-center">
-  <img src="{{ '/images/cau.png' | absolute_url }}" alt="">
+  <img src="/images/cau.png" alt="">
   <figcaption></figcaption>
 </figure>
 <div style="text-align: center">
@@ -95,7 +95,7 @@ Chongqing, China<br />
 
 <br />
 <figure style="width: 150px" class="align-center">
-  <img src="{{ '/images/ttu.png' | absolute_url }}" alt="">
+  <img src="/images/ttu.png" alt="">
   <figcaption></figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ Lubbock, TX<br />
 
 <br />
 <figure style="width: 150px" class="align-center">
-  <img src="{{ '/images/xronz.png' | absolute_url }}" alt="">
+  <img src="/images/xronz.png" alt="">
   <figcaption></figcaption>
 </figure>
 
