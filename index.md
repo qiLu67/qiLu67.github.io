@@ -1,93 +1,120 @@
 ---
+#layout: home
+#limit: 10
+#show_excerpts: true
+#entries_layout: list
+#title:
+
+#categories:
+#  - Layout
+#tags:
+#  - content
+#  - image
+#  - layout
+#last_modified_at: 2018-01-31T14:28:50-05:00
+
+
 layout: page
 image:
-  path: /images/so-simple-sample-image-5.jpg
-  thumbnail: /images/so-simple-sample-image-5-400x200.jpg
-  caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
+  path: /images/background.jpg
+  thumbnail: /images/background.jpg
+  #caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
+title: "Welcome"
+sub_title: "The common elements"
 categories:
   - Markup
-tags:
-  - alignment
-  - captions
+elements:
   - content
   - css
-  - image
+  - formatting
+  - html
   - markup
-last_modified_at: 2018-02-05T16:19:55-05:00
+#last_modified_at: 2018-02-01T10:16:49-05:00
 ---
 
-The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let's get started.
+# About Me
 
-Assign classes with HTML:
+Hi there! I'm a Ph.D. Candidate in the <a href="http://www.myweb.ttu.edu/bren/" target="_blank"> Dynamic Intelligent Systems, Control and Optimization (DISCO) Group</a> at the <a href="http://www.ttu.edu/" target="_blank">Texas Tech University</a>, advised by <a href="https://www.depts.ttu.edu/me/faculty/siva_parameswaran/index.php" target="_blank">Dr. Siva Parameswaran</a> and <a href="https://www.depts.ttu.edu/me/faculty/beibei_ren/index.php" target="_blank">Dr. Beibei Ren</a>.
 
-```html
-<img src="image.jpg" class="align-left" alt="">
-<img src="image.jpg" class="align-center" alt="">
-<img src="image.jpg" class="align-right" alt="">
-```
+My research interests are developing robust control strategies for the UAV in complex environmental conditions to accomplish tasks using onboard sensing and computation.
 
-Or use Kramdown and [inline attribute lists](https://kramdown.gettalong.org/syntax.html#inline-attribute-lists):
+I'm from Chongqing, China. Prior to joining Texas Tech University, I got my Master of Science in Mechanical Engineering at <a href="http://www.ufl.edu/" target="_blank">University of Florida</a> and my Bachelor of Engineering in Mechanical Engineering and Automation at <a href="http://www.cau.edu.cn/" target="_blank">China Agricultural University</a>.
 
-```markdown
-![left-aligned-image](image.jpg){: .align-left}
-![center-aligned-image](image.jpg){: .align-center}
-![right-aligned-image](image.jpg){: .align-right}
-```
+# Education
 
-![image-center]({{ '/images/image-alignment-580x300.jpg' | absolute_url }}){: .align-center}
-
-The image should be **centered** with the `.align-center` class.
-
-![image-left]({{ '/images/image-alignment-150x150.jpg' | absolute_url }}){: .align-left} The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned** with the `.align-left` class.
-
-As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we'll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it's thing. Mission accomplished!
-
-And now for a **massively large image** --- it has **no alignment**.
-
-![no-alignment]({{ '/images/image-alignment-1200x4002.jpg' | absolute_url }})
-
-The image above, though `1200px` wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.
-
-![image-right]({{ '/images/image-alignment-300x200.jpg' | absolute_url }}){: .align-right}
-
-And now we're going to shift things to the **right** with the `.align-right` class. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
-
-In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah --- Just like that. It never felt so good to be right.
-
-And just when you thought we were done, we're going to do them all over again with captions!
-
-<figure class="align-center">
-  <a href="#"><img src="{{ '/images/image-alignment-580x300.jpg' | absolute_url }}" alt=""></a>
-  <figcaption>Look at 580 x 300 <a href="#">getting some</a> love.</figcaption>
+<figure style="width: 150px" class="align-center">
+  <img src="{{ '/images/ttu.png' | absolute_url }}" alt="">
+  <figcaption></figcaption>
 </figure>
 
-The figure above happens to be **centered**. The caption also has a link in it, just to see if it does anything funky.
+<div style="text-align: center">
+<b>Texas Tech University</b> <br />
+Ph.D. in Mechanical Engineering<br />
+Jan. 2015 - May 2019 (Expected)<br />
+Lubbock, TX<br />
+</div>
 
-<figure style="width: 150px" class="align-left">
-  <img src="{{ '/images/image-alignment-150x150.jpg' | absolute_url }}" alt="">
-  <figcaption>Itty-bitty caption.</figcaption>
+<br />
+<figure style="width: 150px" class="align-center">
+  <img src="{{ '/images/uf.svg' | absolute_url }}" alt="">
+  <figcaption></figcaption>
 </figure>
 
-The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned** with the `.align-left` class.
+<div style="text-align: center">
+<b>University of Florida</b> <br />
+M.Sc. in Mechanical Engineering<br />
+Aug. 2012 - May 2014<br />
+Gainesville, FL<br />
+</div>
 
-As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we'll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it's thing. Mission accomplished!
+<br />
+<figure style="width: 150px" class="align-center">
+  <img src="{{ '/images/cau.png' | absolute_url }}" alt="">
+  <figcaption></figcaption>
+</figure>
+<div style="text-align: center">
+<b>China Agricultural University</b> <br />
+B.E. in Mechanical Engineering and Automation<br />
+Sep. 2008 - Jun. 2012<br />
+Beijing, China<br />
+</div>
 
-And now for a massively large image with **no alignment**.
+# Experience
 
-<figure style="width: 1200px">
-  <img src="{{ '/images/image-alignment-1200x4002.jpg' | absolute_url }}" alt="">
-  <figcaption>Massive image comment for your eyeballs.</figcaption>
+<figure style="width: 150px" class="align-center">
+  <img src="/images/ccteg.jpg" alt="">
+  <figcaption></figcaption>
 </figure>
 
-The figure element above has an inline style of `width: 1200px` set which should cause it to break outside of the normal content flow.
+<div style="text-align: center">
+<b>CCTEG Chongqing Research Insitute</b> <br />
+Project Manager Internship<br />
+Oct. 2017 - May 2018 <br />
+Chongqing, China<br />
+</div>
 
-<figure style="width: 300px" class="align-right">
-  <img src="{{ '/images/image-alignment-300x200.jpg' | absolute_url }}" alt="">
-  <figcaption>Feels good to be on the right.</figcaption>
+<br />
+<figure style="width: 150px" class="align-center">
+  <img src="{{ '/images/ttu.png' | absolute_url }}" alt="">
+  <figcaption></figcaption>
 </figure>
 
-And now we're going to shift things to the **right** with the `.align-right` class. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
+<div style="text-align: center">
+<b>Texas Tech University</b> <br />
+Teaching Assistant <br />
+Jan. 2015 - May 2017 <br />
+Lubbock, TX<br />
+</div>
 
-In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah --- Just like that. It never felt so good to be right.
+<br />
+<figure style="width: 150px" class="align-center">
+  <img src="{{ '/images/xronz.png' | absolute_url }}" alt="">
+  <figcaption></figcaption>
+</figure>
 
-And that's a wrap, yo! You survived the tumultuous waters of alignment. Image alignment achievement unlocked!
+<div style="text-align: center">
+<b>Xronz</b> <br />
+Control System Engineering Internship<br />
+May 2014 - Aug. 2014 <br />
+Lanham, MD<br />
+</div>
