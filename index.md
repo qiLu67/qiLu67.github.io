@@ -43,7 +43,7 @@ I'm from Chongqing, China. Prior to joining Texas Tech University, I got my Mast
 # Education
 
 <figure style="width: 150px" class="align-center">
-  <img src="{{ '/images/TTU.png' | absolute_url }}" alt="">
+  <img src="{{ '/images/ttu.png' | absolute_url }}" alt="">
   <figcaption></figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Lubbock, TX<br />
 
 <br />
 <figure style="width: 150px" class="align-center">
-  <img src="{{ '/images/UF.svg' | absolute_url }}" alt="">
+  <img src="{{ '/images/uf.svg' | absolute_url }}" alt="">
   <figcaption></figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ Gainesville, FL<br />
 
 <br />
 <figure style="width: 150px" class="align-center">
-  <img src="{{ '/images/CAU.png' | absolute_url }}" alt="">
+  <img src="{{ '/images/cau.png' | absolute_url }}" alt="">
   <figcaption></figcaption>
 </figure>
 <div style="text-align: center">
@@ -82,7 +82,7 @@ Beijing, China<br />
 # Experience
 
 <figure style="width: 150px" class="align-center">
-  <img src="{{ '/images/CCTEG.jpg' | absolute_url }}" alt="">
+  <img src="{{ '/images/ccteg.jpg' | absolute_url }}" alt="">
   <figcaption></figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ Chongqing, China<br />
 
 <br />
 <figure style="width: 150px" class="align-center">
-  <img src="{{ '/images/TTU.png' | absolute_url }}" alt="">
+  <img src="{{ '/images/ttu.png' | absolute_url }}" alt="">
   <figcaption></figcaption>
 </figure>
 
