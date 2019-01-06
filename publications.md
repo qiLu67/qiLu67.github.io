@@ -17,7 +17,7 @@ elements:
 
 # Journal
 
-1. **Q. Lu**, B. Ren, and S. Parameswaran., "Quaternion-Based Robust Control for a Quadrotor using Uncertainty and Disturbance Estimator," Under prepartion.
+1. **Q. Lu**, B. Ren, and S. Parameswaran., "Quaternion-Based Robust Control for a Quadrotor using Uncertainty and Disturbance Estimator," *Submitted*.
 
 2. **Q. Lu**, B. Ren, and S. Parameswaran., "<a href="https://arc.aiaa.org/doi/10.2514/1.G003073" target="_blank">Shipboard Landing Control Enabled by an Uncertainty and Disturbance Estimator</a>," *Journal of Guidance, Control, and Dynamics*, vol. 41, no. 7, pp. 1502-1520, Jul. 2018.
 

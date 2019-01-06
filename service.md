@@ -33,12 +33,12 @@ taxonomy: markup
 # Graduate Part Time Instructor & Teaching Assistant
 
 1. **ME 4334-Control of Dynamic Systems** <br />
-      *Spring 2015; Fall 2015; Spring 2016; Fall 2016; Summer 2016; Spring 2017.* <br />
+      *Spring 2017; Fall 2016; Summer 2016; Spring 2016; Fall 2015; Spring 2015.* <br />
 
       Introduction to analysis and design of control systems, including applications to electromechanical systems.
 
 2. **ME 4234-Control of Dynamic Systems Laboratory** <br />
-      *Spring 2015; Spring 2016; Spring 2017.* <br />
+      *Spring 2017; Spring 2016; Spring 2015.* <br />
 
       Hands-on experience in the modeling and control of dynamic systems.  
 

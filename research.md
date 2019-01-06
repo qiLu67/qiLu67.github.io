@@ -1,7 +1,7 @@
 ---
-title: Research
+title: Projects
 layout: collection
 permalink: /research/
-collection: recipes
+collection: research
 entries_layout: grid
 ---
