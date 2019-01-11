@@ -38,6 +38,7 @@ disqus:
 twitter:
   username: #"mmistakes"
 google_site_verification: "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
+port: 4003
 
 # Liquid
 liquid:

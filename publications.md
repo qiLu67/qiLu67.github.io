@@ -31,7 +31,7 @@ elements:
 
 3. **Q. Lu**, and S. Parameswaran, "Rotating Liquid Jet Impingement Cooling System," in *OpenFOAM Conference North America*, Detroit, MI, Oct. 30, 2018.
 
-4. J. Yan, Z. Peng, H. Hong, X. Zhu, **Q. Lu**, B. Ren, C. Li, "<a href="http://ieeexplore.ieee.org/document/8251698" target="_blank">Indoor range-direction-movement SAR for drone-based radar systems</a>," in *IEEE Asia Pacific Microwave Conference (APMC)*, Kuala Lumpur, Malaysia, Nov. 13-16, 2017.
+4. J. Yan, Z. Peng, H. Hong, X. Zhu, **Q. Lu**, B. Ren, C. Li, "<a href="http://ieeexplore.ieee.org/document/8251698" target="_blank">Indoor range-direction-movement SAR for drone-based radar systems</a>," in *IEEE Asia Pacific Microwave Conference*, Kuala Lumpur, Malaysia, Nov. 13-16, 2017.
 
 5. **Q. Lu**,  B. Ren, and S. Parameswaran, "Robust Tracking Control for a UAV in GPS-denied Uncertain Environments," In *Texas UAS Summit & Expo and AUVSI XPONENTIAL*, Dallas, TX, May 09-10, 2017. **(3rd Place in Poster Competition and Selected to Give a 2-min Lightning Round Talk)**
 
