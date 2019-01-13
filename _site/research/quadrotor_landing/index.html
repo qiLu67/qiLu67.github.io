@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.1.1
+    Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Robust Landing Control on Moving Platform | Qi Lu</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Robust Landing Control on Moving Platform" />
+<meta name="author" content="Qi Lu" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Objective Autonomously landing on moving platform with only onboard sensing." />
+<meta property="og:description" content="Objective Autonomously landing on moving platform with only onboard sensing." />
+<link rel="canonical" href="http://localhost:4003/research/quadrotor_landing/" />
+<meta property="og:url" content="http://localhost:4003/research/quadrotor_landing/" />
+<meta property="og:site_name" content="Qi Lu" />
+<meta property="og:image" content="http://localhost:4003/images/quadrotor_landing.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-01-13T01:38:54-06:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@Qi Lu" />
+<meta name="google-site-verification" content="UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" />
+<script type="application/ld+json">
+{"image":{"thumbnail":"/images/quadrotor_landing.jpg","caption":null,"url":"http://localhost:4003/images/quadrotor_landing.jpg","@type":"imageObject"},"url":"http://localhost:4003/research/quadrotor_landing/","headline":"Robust Landing Control on Moving Platform","dateModified":"2019-01-13T01:38:54-06:00","datePublished":"2019-01-13T01:38:54-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4003/research/quadrotor_landing/"},"author":{"@type":"Person","name":"Qi Lu"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4003/images/avator.jpg"},"name":"Qi Lu"},"description":"Objective Autonomously landing on moving platform with only onboard sensing.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Lora:400,400i,700,700i">
+  <link rel="alternate" type="application/atom+xml" title="Qi Lu" href="/feed.xml">
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+
+  <body class="layout--post  robust-landing-control-on-moving-platform">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+  <div class="navigation-wrapper">
+    <a href="#menu-toggle" id="menu-toggle">Menu</a>
+    <nav id="primary-nav" class="site-nav animated drop">
+      <ul><li><a href="/">Home</a></li><li><a href="/research/">Projects</a></li><li><a href="/publications/">Publication</a></li><li><a href="/service/">Service & Teaching</a></li><li><a href="/misc/">Misc</a></li></ul>
+    </nav>
+  </div><!-- /.navigation-wrapper -->
+
+
+    <header class="masthead">
+  <div class="wrap">
+    
+      <a href="/" class="site-logo" rel="home" title="Qi Lu">
+        <img src="/images/avator.jpg" class="site-logo-img animated fadeInDown" alt="Qi Lu">
+      </a>
+    
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+  
+  
+  
+
+  <div class="page-image">
+    <img src="/images/quadrotor_landing.jpg" class="entry-feature-image u-photo" alt="Robust Landing Control on Moving Platform" >
+    
+  </div>
+
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title p-name">Robust Landing Control on Moving Platform
+</h1>
+        
+      </header>
+
+      <div class="page-sidebar">
+        <div class="page-author h-card p-author"><img src="/images/avator.jpg" class="author-avatar u-photo" alt="Qi Lu"><div class="author-info"><div class="author-name">
+        <em>by</em> <span class="p-name">Qi Lu</span>
+      </div><ul class="author-links"><li class="author-link">
+            <a class="u-url" rel="me" href=""><i class="fab fa-twitter-square fa-lg" title="Twitter"></i></a>
+          </li><li class="author-link">
+            <a class="u-url" rel="me" href=""><i class="fab fa-instagram fa-lg" title="Instagram"></i></a>
+          </li><li class="author-link">
+            <a class="u-url" rel="me" href=""><i class="fab fa-github-square fa-lg" title="GitHub"></i></a>
+          </li></ul>
+
+<span class="read-time">1 min read</span>
+
+    <time class="page-date dt-published" datetime="2019-01-13T01:38:54-06:00"><a class="u-url" href="">January 13, 2019</a>
+</time>
+
+  </div>
+</div>
+
+        
+
+        
+
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          <h1 id="objective">Objective</h1>
+<p>Autonomously landing on moving platform with only onboard sensing.</p>
+
+<h1 id="abstract">Abstract</h1>
+<p>This project develops an autonomous landing control approach for a quadrotor unmanned aerial vehicle (UAV) subject to wind disturbance and three-dimensional movements of the landing platform. To achieve an accurate relative position estimation of the quadrotor to the landing platform, a camera, a distance sensor and a single board computer are integrated to the quadrotor. The coordinate transformation is introduced to deal with the constraint that only the relative position information is available. The impacts of unknown ship motions are treated as part of the lumped uncertainty terms. Then the uncertainty and disturbance estimator (UDE)-based controllers are developed to achieve the accurate relative position control of the quadrotor while dealing with unknown ship motions, ground effect, state couplings and external disturbances. The UDE filter is designed based on the internal model principle to enhance the performance of the developed controller. The reference model of the relative altitude controller is modified to ensure the accurate tracking of descending commands. To maximize the capability of the developed controller, a parameter selection guideline based on the derived ship heave acceleration spectrum is provided.</p>
+
+<!--
+
+# Challenges
+
+* Reliable navigation in GPS-denied environment;
+* Fast dynamics, naturally unstable system;
+* System underactuation;
+* State couplings;
+* Nonaffine inputs;
+* Model uncertainties;
+* External disturbances.
+
+# Approaches
+
+* PX4FLOW sensor is adopted for GPS-denied navigation;
+* Uncertainty and disturbance estimator (UDE)-based cascade control scheme is developed;
+* UDE-based attitude controllers are developed to deal with couplings, model uncertainties and disturbances;
+* UDE-based position controllers are developed to handle
+the nonaffine inputs.
+
+<figure style="width: 1000px" class="align-left">
+  <img src="/images/quadrotor_trajectory_tracking_control_scheme.jpg" alt="">
+  <figcaption></figcaption>
+</figure>
+**Fig1. Quadrotor cascade control scheme**
+
+-->
+
+<h1 id="experiments">Experiments</h1>
+
+<figure style="width: 600px" class="align-center">
+  <img src="/images/quadrotor_landing_quadrotor_platform.jpg" alt="" />
+  <figcaption></figcaption>
+</figure>
+<p><strong>Fig1. Quadrotor platform</strong></p>
+
+<figure style="width: 600px" class="align-center">
+  <img src="/images/quadrotor_landing_ship_motion_simulator.jpg" alt="" />
+  <figcaption></figcaption>
+</figure>
+<p><strong>Fig2. Ship motion simulator</strong></p>
+
+<figure style="width: 600px" class="align-center">
+  <img src="/images/quadrotor_landing_experimental_environment.jpg" alt="" />
+  <figcaption></figcaption>
+</figure>
+<p><strong>Fig3.Experimental environment</strong></p>
+
+<h2 id="landing-on-vertically-heaving-platform">Landing on vertically heaving platform</h2>
+
+<div class="responsive-embed responsive-embed-16by9">
+  <iframe src="https://www.youtube.com/embed/KxWxJ1CMrhI" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<h2 id="landing-on-three-dimensional-moving-platform-with-wind">Landing on three-dimensional moving platform with wind</h2>
+
+<figure style="width: 800px" class="align-center">
+  <img src="/images/quadrotor_landing_experimental_results.png" alt="" />
+  <figcaption></figcaption>
+</figure>
+
+<h1 id="related-publications">Related publications</h1>
+
+<ol>
+  <li><strong>Q. Lu</strong>, B. Ren, and S. Parameswaran., “<a href="https://arc.aiaa.org/doi/10.2514/1.G003073" target="_blank">Shipboard Landing Control Enabled by an Uncertainty and Disturbance Estimator</a>,” <em>Journal of Guidance, Control, and Dynamics</em>, vol. 41, no. 7, pp. 1502-1520, Jul. 2018.</li>
+</ol>
+
+<hr />
+
+        </div>
+
+        
+          <div class="page-share">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4003%2Fresearch%2Fquadrotor_landing%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--facebook btn--small"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i> <span>Share</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Robust+Landing+Control+on+Moving+Platform%20http%3A%2F%2Flocalhost%3A4003%2Fresearch%2Fquadrotor_landing%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--twitter btn--small"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> <span>Tweet</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4003%2Fresearch%2Fquadrotor_landing%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--linkedin btn--small"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> <span>LinkedIn</span></a>
+  <a href="https://reddit.com/submit?title=Robust+Landing+Control+on+Moving+Platform&url=http%3A%2F%2Flocalhost%3A4003%2Fresearch%2Fquadrotor_landing%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--reddit btn--small"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i> <span>Reddit</span></a>
+</div>
+
+        
+
+        
+          
+
+        
+
+        <nav class="page-pagination" role="navigation">
+  
+    <a class="page-previous" href="/research/jet_coolling/">
+      <h4 class="page-pagination-label">Previous</h4>
+      <span class="page-pagination-title">
+        <i class="fas fa-arrow-left"></i> Rotating Liquid Jet Impingement Cooling System
+
+      </span>
+    </a>
+  
+
+  
+    <a class="page-next" href="/research/quadrotor_trajectory/">
+      <h4 class="page-pagination-label">Next</h4>
+      <span class="page-pagination-title">
+        Robust Tracking Control in GPS-denied Environments
+ <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+<div class="social-icons"><a class="social-icon" href=""><i class="fab fa-twitter-square fa-2x" title="Twitter"></i></a><a class="social-icon" href=""><i class="fab fa-instagram fa-2x" title="Instagram"></i></a><a class="social-icon" href=""><i class="fab fa-github-square fa-2x" title="GitHub"></i></a><a class="social-icon" href="/atom.xml"><i class="fas fa-rss-square fa-2x" title="Feed"></i></a></div><div class="copyright">
+    
+      <p>&copy; 2019 Qi Lu. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
+    
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+<!-- MathJax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  </body>
+
+</html>

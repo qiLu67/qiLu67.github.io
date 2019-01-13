@@ -5,14 +5,11 @@ image:
   thumbnail: /images/quadrotor_trajectory_tracking.jpg
   caption:
 ---
+# Objective
+Autonomous trajectory tracking control in GPS-denied environments using only onboard sensing.
 
 # Abstract
 This project addresses the problem of autonomous trajectory tracking control for a quadrotor in GPS-denied environment using only onboard sensing. For the position estimation in GPS-denied environment, an open source high speed optical flow sensor PX4FLOW is adopted. The cascade inner-outer uncertainty and disturbance estimator (UDE)-based robust control scheme has been developed and applied to the attitude and position control of a quadrotor.
-
-
-# Objective
-
-Autonomous trajectory tracking control in GPS-denied environments using only onboard sensing.
 
 <!--
 
@@ -42,17 +39,21 @@ the nonaffine inputs.
 
 -->
 
-# Experimental Results
+# Experiments
 
-<p float="left">
-  <img src="/images/quadrotor_trajectory_tracking_platform.jpg" width="600px" />
-</p>
+<figure style="width: 600px" class="align-center">
+  <img src="/images/quadrotor_trajectory_tracking_platform.jpg" alt="">
+  <figcaption></figcaption>
+</figure>
 **Fig1. Experimental platform**
 
-<p float="left">
-<img src="/images/quadrotor_trajectory_tracking_environment.jpg" width="600px" />
-</p>
+<figure style="width: 600px" class="align-center">
+  <img src="/images/quadrotor_trajectory_tracking_environment.jpg" alt="">
+  <figcaption></figcaption>
+</figure>
 **Fig2. Experimental environment**
+
+## Experimental results
 
 {% include responsive-embed url="https://www.youtube.com/embed/F_TwVBfSw58" ratio="16:9" %}
 

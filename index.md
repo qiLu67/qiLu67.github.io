@@ -36,13 +36,13 @@ elements:
 
 Hi there! I'm a Ph.D. Candidate in the <a href="http://www.myweb.ttu.edu/bren/" target="_blank"> Dynamic Intelligent Systems, Control and Optimization (DISCO) Group</a> at the <a href="http://www.ttu.edu/" target="_blank">Texas Tech University</a>, advised by <a href="https://www.depts.ttu.edu/me/faculty/siva_parameswaran/index.php" target="_blank">Dr. Siva Parameswaran</a> and <a href="https://www.depts.ttu.edu/me/faculty/beibei_ren/index.php" target="_blank">Dr. Beibei Ren</a>.
 
-My research interests are developing robust control strategies for the UAV in complex environmental conditions to accomplish tasks using onboard sensing and computation.
+My research interests are developing robust control strategies for the quadrotor unmanned aerial vehicle (UAV) in complex environmental conditions to accomplish tasks using onboard sensing and computation.
 
 I'm from Chongqing, China. Prior to joining Texas Tech University, I got my Master of Science in Mechanical Engineering at <a href="http://www.ufl.edu/" target="_blank">University of Florida</a> and my Bachelor of Engineering in Mechanical Engineering and Automation at <a href="http://www.cau.edu.cn/" target="_blank">China Agricultural University</a>.
 
 # Education
 
-<figure style="width: 150px" class="align-center">
+<figure style="width: 200px" class="align-center">
   <img src="/images/ttu.png" alt="">
   <figcaption></figcaption>
 </figure>
@@ -55,7 +55,7 @@ Lubbock, TX<br />
 </div>
 
 <br />
-<figure style="width: 150px" class="align-center">
+<figure style="width: 200px" class="align-center">
   <img src="/images/uf.svg" alt="">
   <figcaption></figcaption>
 </figure>
@@ -68,7 +68,7 @@ Gainesville, FL<br />
 </div>
 
 <br />
-<figure style="width: 150px" class="align-center">
+<figure style="width: 200px" class="align-center">
   <img src="/images/cau.png" alt="">
   <figcaption></figcaption>
 </figure>
@@ -81,7 +81,7 @@ Beijing, China<br />
 
 # Experience
 
-<figure style="width: 150px" class="align-center">
+<figure style="width: 200px" class="align-center">
   <img src="/images/ccteg.jpg" alt="">
   <figcaption></figcaption>
 </figure>
@@ -94,7 +94,7 @@ Chongqing, China<br />
 </div>
 
 <br />
-<figure style="width: 150px" class="align-center">
+<figure style="width: 200px" class="align-center">
   <img src="/images/ttu.png" alt="">
   <figcaption></figcaption>
 </figure>
@@ -107,7 +107,7 @@ Lubbock, TX<br />
 </div>
 
 <br />
-<figure style="width: 150px" class="align-center">
+<figure style="width: 200px" class="align-center">
   <img src="/images/xronz.png" alt="">
   <figcaption></figcaption>
 </figure>

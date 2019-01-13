@@ -269,8 +269,18 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4003/example/hidden-post/"
       },{
+        "title": "Rotating Liquid Jet Impingement Cooling System",
+        "excerpt":"Objective Developing numerical model for predicting the heat transfer performance of the the jet impingement cooling system. Abstract The circular, liquid jet impingement provides a convenient way of cooling surfaces. To effectively cool the devices inside the electric vehicle, a rotating jet impingement cooling system is designed to evaluate the...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4003/research/jet_coolling/"
+      },{
+        "title": "Robust Landing Control on Moving Platform",
+        "excerpt":"Objective Autonomously landing on moving platform with only onboard sensing. Abstract This project develops an autonomous landing control approach for a quadrotor unmanned aerial vehicle (UAV) subject to wind disturbance and three-dimensional movements of the landing platform. To achieve an accurate relative position estimation of the quadrotor to the landing...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4003/research/quadrotor_landing/"
+      },{
         "title": "Robust Tracking Control in GPS-denied Environments",
-        "excerpt":"Abstract This project addresses the problem of autonomous trajectory tracking control for a quadrotor in GPS-denied environment using only onboard sensing. For the position estimation in GPS-denied environment, an open source high speed optical flow sensor PX4FLOW is adopted. The cascade inner-outer uncertainty and disturbance estimator (UDE)-based robust control scheme...","categories": [],
+        "excerpt":"Objective Autonomous trajectory tracking control in GPS-denied environments using only onboard sensing. Abstract This project addresses the problem of autonomous trajectory tracking control for a quadrotor in GPS-denied environment using only onboard sensing. For the position estimation in GPS-denied environment, an open source high speed optical flow sensor PX4FLOW is...","categories": [],
         "tags": [],
         "url": "http://localhost:4003/research/quadrotor_trajectory/"
       }]
