@@ -269,10 +269,25 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4003/example/hidden-post/"
       },{
+        "title": "Gyroscopic Variable Transmission (GVT)",
+        "excerpt":"Objective Designing and building a mini-GVT system using 3D printing for concept validation. Demonstration     Figure 1. Input-output relationship of GVT system     Figure 2. Exploded view of the 3D sketch GVT working video   ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4003/research/GVT/"
+      },{
         "title": "Rotating Liquid Jet Impingement Cooling System",
         "excerpt":"Objective Developing numerical model for predicting the heat transfer performance of the the jet impingement cooling system. Abstract The circular, liquid jet impingement provides a convenient way of cooling surfaces. To effectively cool the devices inside the electric vehicle, a rotating jet impingement cooling system is designed to evaluate the...","categories": [],
         "tags": [],
         "url": "http://localhost:4003/research/jet_coolling/"
+      },{
+        "title": "Mine Locomotive Collision Warning System",
+        "excerpt":"Objective Developing mine locomotive collision warning system to achieve: 1. real-time obstacle detection; 2. complex road condition detection; and 3. mine locomotive localization. Abstract This project develops a collision warning system for underground mine locomotives. The developed system utilizes a 2D LiDAR to achieve the obstacle detection with the collection...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4003/research/kcw/"
+      },{
+        "title": "Recognition of Hand-Written Digits via Artificial Neural Network",
+        "excerpt":"Objective Development of real-time hand-written digits recognition system. Abstract In this project, the hand-written digits recognition system is developed. The camera is utilized to capture the hand-written digits image in a real-time manner. The captured image is processed to provide suitable features to a trained artificial neural network to provide...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4003/research/ocr/"
       },{
         "title": "Robust Landing Control on Moving Platform",
         "excerpt":"Objective Autonomously landing on moving platform with only onboard sensing. Abstract This project develops an autonomous landing control approach for a quadrotor unmanned aerial vehicle (UAV) subject to wind disturbance and three-dimensional movements of the landing platform. To achieve an accurate relative position estimation of the quadrotor to the landing...","categories": [],
@@ -283,4 +298,9 @@ var store = [{
         "excerpt":"Objective Autonomous trajectory tracking control in GPS-denied environments using only onboard sensing. Abstract This project addresses the problem of autonomous trajectory tracking control for a quadrotor in GPS-denied environment using only onboard sensing. For the position estimation in GPS-denied environment, an open source high speed optical flow sensor PX4FLOW is...","categories": [],
         "tags": [],
         "url": "http://localhost:4003/research/quadrotor_trajectory/"
+      },{
+        "title": "The Self-Balancing Robot “Webble” ",
+        "excerpt":"Objective Designing and building an autonomous two-wheel self-balancing robot that could balance, move and avoid obstacles. Abstract Weeble is a small self-balancing robot like Segway. It has two wheels driven by two DC motors. It can stand and balance by itself. And it can move forward and back and make...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4003/research/webble/"
       }]

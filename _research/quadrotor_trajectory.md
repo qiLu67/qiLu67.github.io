@@ -45,13 +45,13 @@ the nonaffine inputs.
   <img src="/images/quadrotor_trajectory_tracking_platform.jpg" alt="">
   <figcaption></figcaption>
 </figure>
-**Fig1. Experimental platform**
+**Figure 1. Experimental platform**
 
 <figure style="width: 600px" class="align-center">
   <img src="/images/quadrotor_trajectory_tracking_environment.jpg" alt="">
   <figcaption></figcaption>
 </figure>
-**Fig2. Experimental environment**
+**Figure 2. Experimental environment**
 
 ## Experimental results
 
