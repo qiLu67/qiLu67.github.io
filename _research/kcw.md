@@ -1,8 +1,8 @@
 ---
 title: "Mine Locomotive Collision Warning System"
 image:
-  path: /images/KCW.png
-  thumbnail: /images/KCW.png
+  path: /images/kcw.png
+  thumbnail: /images/kcw.png
   caption:
 ---
 # Objective
