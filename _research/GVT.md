@@ -28,5 +28,5 @@ Weeble is a small self-balancing robot like Segway. It has two wheels driven by 
 
 ## GVT working video
 
-{% include responsive-embed url="https://www.youtube.com/embed/Pr5NCahH_RU" ratio="16:9" %}
+{% include responsive-embed url="https://www.youtube.com/embed/bGJLMPa39m8" ratio="16:9" %}
 ---
