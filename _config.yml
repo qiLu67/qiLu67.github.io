@@ -32,7 +32,7 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: "UA-2011187-2"
+google_analytics: "UA-131810420-1"
 disqus:
   shortname: "sosimpletheme"
 twitter:
@@ -112,15 +112,16 @@ author:
   email:
   twitter: #mmistakes
   links:
-    - title: Twitter
-      url: #https://twitter.com/mmistakes
-      icon: fab fa-twitter-square
-    - title: Instagram
-      url: #https://instagram.com/mmistakes
-      icon: fab fa-instagram
     - title: GitHub
-      url: #https://github.com/mmistakes
+      url: https://github.com/qilu67 #https://github.com/mmistakes
       icon: fab fa-github-square
+    #- title: Twitter
+    #  url: #https://twitter.com/mmistakes
+    #  icon: fab fa-twitter-square
+    #- title: Instagram
+    #  url: #https://instagram.com/mmistakes
+    #  icon: fab fa-instagram
+
 
 # Footer Links
 #footer_links:

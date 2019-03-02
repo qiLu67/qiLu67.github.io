@@ -1,5 +1,5 @@
 ---
-title: "The Self-Balancing Robot “Webble” "
+title: "6. Self-Balancing Robot “Webble” "
 image:
   path: /images/webble.jpg
   thumbnail: /images/webble.jpg

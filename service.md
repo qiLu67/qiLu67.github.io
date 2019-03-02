@@ -10,7 +10,7 @@ taxonomy: markup
 
 |:--------------------------------------------------------------------------|------------:|
 | IEEE Transactions on Industrial Electronics | 2 reviews |
-| ASME Journal of Dynamic Systems, Measurement and Control &nbsp&nbsp| 2 reviews |
+| ASME Journal of Dynamic Systems, Measurement and Control | 2 reviews |
 | AIAA Journal of Guidance, Control, and Dynamics | 2 reviews |
 | IEEE/ASME Transactions on Mechatronics | 1 review |
 | IEEE Transactions on Systems, Man, and Cybernetics: Systems | 3 reviews |

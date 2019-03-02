@@ -1,5 +1,5 @@
 ---
-title: "Mine Locomotive Collision Warning System"
+title: "4. Mine Locomotive Collision Warning System"
 image:
   path: /images/kcw.png
   thumbnail: /images/kcw.png

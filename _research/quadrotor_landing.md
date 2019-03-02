@@ -1,5 +1,5 @@
 ---
-title: "Robust Landing Control on Moving Platform"
+title: "2. Robust Landing Control on Moving Platform"
 image:
   path: /images/quadrotor_landing.jpg
   thumbnail: /images/quadrotor_landing.jpg

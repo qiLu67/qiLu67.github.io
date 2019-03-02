@@ -1,5 +1,5 @@
 ---
-title: "Recognition of Hand-Written Digits via Artificial Neural Network"
+title: "7. Recognition of Hand-Written Digits via Artificial Neural Network"
 image:
   path: /images/ocr.PNG
   thumbnail: /images/ocr.PNG

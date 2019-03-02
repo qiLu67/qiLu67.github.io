@@ -21,24 +21,24 @@ elements:
 
 2. **Q. Lu**, B. Ren, and S. Parameswaran., "<a href="https://arc.aiaa.org/doi/10.2514/1.G003073" target="_blank">Shipboard Landing Control Enabled by an Uncertainty and Disturbance Estimator</a>," *Journal of Guidance, Control, and Dynamics*, vol. 41, no. 7, pp. 1502-1520, Jul. 2018.
 
-2. **Q. Lu**, B. Ren, and S. Parameswaran. and Q.-C. Zhong, "<a href="http://dynamicsystems.asmedigitalcollection.asme.org/article.aspx?articleid=2652289" target="_blank">Uncertainty and Disturbance Estimator-Based Robust Trajectory Tracking Control for a Quadrotor in a Global Positioning System-Denied Environment</a>," *Journal of Dynamic Systems, Measurement and Control*, vol. 140, no. 3, p. 031001, Nov. 2017.
+2. **Q. Lu**, B. Ren, and S. Parameswaran., and Q.-C. Zhong, "<a href="http://dynamicsystems.asmedigitalcollection.asme.org/article.aspx?articleid=2652289" target="_blank">Uncertainty and Disturbance Estimator-Based Robust Trajectory Tracking Control for a Quadrotor in a Global Positioning System-Denied Environment</a>," *Journal of Dynamic Systems, Measurement and Control*, vol. 140, no. 3, p. 031001, Nov. 2017.
 
 # Conference
 
-1. **Q. Lu**, S. Parameswaran, and B. Ren, "Heat Transfer by a Rotating Liquid Jet Impingement Cooling System," in *International Mechanical Engineering Congress & Exposition*, Pittsburgh, PA, Nov. 09-15, 2018.
+1. **Q. Lu**, S. Parameswaran, and B. Ren, "Heat Transfer by a Rotating Liquid Jet Impingement Cooling System," in *International Mechanical Engineering Congress & Exposition*, Pittsburgh, PA, USA, 2018.
 
-2. Y. Wang, **Q. Lu**, and S. Parameswaran, " On the Use of the k-ε Model in OpenFOAM to Simulate the Atmospheric Boundary Layer," in *OpenFOAM Conference North America*, Detroit, MI, Oct. 30, 2018.
+2. Y. Wang, **Q. Lu**, and S. Parameswaran, " On the Use of the k-ε Model in OpenFOAM to Simulate the Atmospheric Boundary Layer," in *OpenFOAM Conference North America*, Detroit, MI, USA, 2018.
 
-3. **Q. Lu**, and S. Parameswaran, "Rotating Liquid Jet Impingement Cooling System," in *OpenFOAM Conference North America*, Detroit, MI, Oct. 30, 2018.
+3. **Q. Lu**, and S. Parameswaran, "Rotating Liquid Jet Impingement Cooling System," in *OpenFOAM Conference North America*, Detroit, MI, USA, 2018.
 
-4. J. Yan, Z. Peng, H. Hong, X. Zhu, **Q. Lu**, B. Ren, C. Li, "<a href="http://ieeexplore.ieee.org/document/8251698" target="_blank">Indoor range-direction-movement SAR for drone-based radar systems</a>," in *IEEE Asia Pacific Microwave Conference*, Kuala Lumpur, Malaysia, Nov. 13-16, 2017.
+4. J. Yan, Z. Peng, H. Hong, X. Zhu, **Q. Lu**, B. Ren, C. Li, "<a href="http://ieeexplore.ieee.org/document/8251698" target="_blank">Indoor range-direction-movement SAR for drone-based radar systems</a>," in *IEEE Asia Pacific Microwave Conference*, Kuala Lumpur, Malaysia, 2017.
 
-5. **Q. Lu**,  B. Ren, and S. Parameswaran, "Robust Tracking Control for a UAV in GPS-denied Uncertain Environments," In *Texas UAS Summit & Expo and AUVSI XPONENTIAL*, Dallas, TX, May 09-10, 2017. **(3rd Place in Poster Competition and Selected to Give a 2-min Lightning Round Talk)**
+5. **Q. Lu**,  B. Ren, and S. Parameswaran, "Robust Tracking Control for a UAV in GPS-denied Uncertain Environments," In *Texas UAS Summit*, Dallas, TX, USA, 2017. **(3rd Place in Poster Competition and Selected to Give a 2-min Lightning Round Talk)**
 
-6. **Q. Lu**,  B. Ren, and S. Parameswaran, "Navigation and Control for a Quadrotor UAV in GPS-denied Environments," In *Annual Graduate School Poster Competition*, Lubbock, TX, Mar. 23-24, 2017.
+6. **Q. Lu**,  B. Ren, and S. Parameswaran, "Navigation and Control for a Quadrotor UAV in GPS-denied Environments," In *Annual Graduate School Poster Competition*, Lubbock, TX, USA, 2017.
 
-7. **Q. Lu**, B. Ren, S. Parameswaran, and Q.-C. Zhong, "<a href="http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2604365" target="_blank">Position Control of a Quadrotor Using Onboard Optical Flow Sensor</a>," in *Dynamic Systems and Control Conference*, Minneapolis, MN, Oct. 12-14, 2016.
+7. **Q. Lu**, B. Ren, S. Parameswaran, and Q.-C. Zhong, "<a href="http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2604365" target="_blank">Position Control of a Quadrotor Using Onboard Optical Flow Sensor</a>," in *Dynamic Systems and Control Conference*, Minneapolis, MN, USA, 2016.
 
-8. J. Dai, **Q. Lu**,B. Ren, and Q.-C. Zhong, "<a href="http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2481847" target="_blank">Robust Attitude Tracking Control for a Quadrotor Based on the Uncertainty and Disturbance Estimator</a>," in *Dynamic Systems and Control Conference*, Columbus, OH, Oct. 28-30, 2015.
+8. J. Dai, **Q. Lu**,B. Ren, and Q.-C. Zhong, "<a href="http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2481847" target="_blank">Robust Attitude Tracking Control for a Quadrotor Based on the Uncertainty and Disturbance Estimator</a>," in *Dynamic Systems and Control Conference*, Columbus, OH, USA, 2015.
 
 ---

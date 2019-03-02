@@ -1,5 +1,5 @@
 ---
-title: "Gyroscopic Variable Transmission (GVT)"
+title: "5. Gyroscopic Variable Transmission (GVT)"
 image:
   path: /images/gvt.png
   thumbnail: /images/gvt.png

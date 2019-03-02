@@ -1,5 +1,5 @@
 ---
-title: "Robust Tracking Control in GPS-denied Environments"
+title: "1. Robust Tracking Control in GPS-denied Environments"
 image:
   path: /images/quadrotor_trajectory_tracking.jpg
   thumbnail: /images/quadrotor_trajectory_tracking.jpg
