@@ -25,7 +25,7 @@ elements:
 
 # Conference
 
-1. **Q. Lu**, S. Parameswaran, and B. Ren, "Heat Transfer by a Rotating Liquid Jet Impingement Cooling System," in *International Mechanical Engineering Congress & Exposition*, Pittsburgh, PA, USA, 2018.
+1. **Q. Lu**, S. Parameswaran, and B. Ren, "<a href="http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2722236" target="_blank">Heat Transfer by a Rotating Liquid Jet Impingement Cooling System</a>," in *International Mechanical Engineering Congress & Exposition*, Pittsburgh, PA, USA, 2018.
 
 2. Y. Wang, **Q. Lu**, and S. Parameswaran, " On the Use of the k-ε Model in OpenFOAM to Simulate the Atmospheric Boundary Layer," in *OpenFOAM Conference North America*, Detroit, MI, USA, 2018.
 
