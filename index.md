@@ -45,12 +45,12 @@ I'm from Chongqing, China. Prior to joining Texas Tech University, I got my Mast
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="200px" alt="" src="/images/ttu.png"> |  <img width="200px" alt="" src="/images/uf.svg">|<img width="200px" alt="" src="/images/cau.png">|
+|<img height="300px" width="250px" alt="" src="/images/ttu.png"> |  <img height="300px" width="200px" alt="" src="/images/uf.svg">|<img height="300px" width="190px" alt="" src="/images/cau.png">|
 |<b>Texas Tech University</b><br />Ph.D. in Mechanical Engineering<br />Jan. 2015 - May 2019 (Expected)<br />Lubbock, TX<br />|<b>University of Florida</b> <br />M.Sc. in Mechanical Engineering<br />Aug. 2012 - May 2014<br />Gainesville, FL<br />|<b>China Agricultural University</b> <br />B.E. in Mechanical Engineering <br />and Automation<br />Sep. 2008 - Jun. 2012<br />Beijing, China<br />|
 
 # Experience
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="200px" alt="" src="/images/ccteg.jpg"> |  <img width="200px" alt="" src="/images/ttu.png">|<img width="200px" alt="" src="/images/xronz.png">|
+|<img height="300px" width="320px" alt="" src="/images/ccteg.jpg"> |  <img height="300px" width="250px" alt="" src="/images/ttu.png">|<img height="300px" width="200px" alt="" src="/images/xronz.png">|
 |<b>CCTEG Chongqing Research Institute</b><br />Engineer Internship<br />Oct. 2017 - May 2018<br />Chongqing, China<br />|<b>Texas Tech University</b><br />Teaching Assistant <br />Jan. 2015 - May 2017 <br />Lubbock, TX<br />|<b>Xronz</b><br />Control System Engineer Internship<br />May 2014 - Aug. 2014<br />Lanham, MD<br />|
